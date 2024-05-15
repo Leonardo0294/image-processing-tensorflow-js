@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulación de Imágenes con Tensorflow.js</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Manipulación de Imágenes con Tensorflow.js</h1>
+    <input type="file" id="uploadInput" accept="image/*">
+    <br>
+    <div>
+        <h2>Recortar Imagen</h2>
+        <canvas id="croppedCanvas" width="300" height="300"></canvas>
+    </div>
+    <div>
+        <h2>Cambiar Tamaño de Imagen</h2>
+        <canvas id="resizedCanvas" width="300" height="300"></canvas>
+    </div>
+    <div>
+        <h2>Imagen Espejada</h2>
+        <canvas id="mirroredCanvas" width="300" height="300"></canvas>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
